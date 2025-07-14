@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="3raTarea" id="1DE70D74-9FF5-C437-924E-290D3CDEA065" version="3.5">
+<createdBy>Ruth</createdBy>
+<createdTime>2025-07-14 20:22:37 UTC</createdTime>
+<ownerDesignName>3raTarea</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1DE70D74-9FF5-C437-924E-290D3CDEA065</designId>
+</OSDM_Design>

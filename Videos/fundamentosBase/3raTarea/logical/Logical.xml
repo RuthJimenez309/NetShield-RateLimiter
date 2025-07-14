@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DBE257A3-8D8F-4D9F-1E80-329D7A951374" mainViewID="033D9630-002F-EF83-B605-7FBBACF1C9EB">
+<createdBy>Ruth</createdBy>
+<createdTime>2025-07-14 20:22:37 UTC</createdTime>
+<ownerDesignName>3raTarea</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

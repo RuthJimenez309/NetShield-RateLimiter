@@ -1,0 +1,202 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46DB2DAD-9CF1-A798-4728-31F22EA73BD3" name="Transaccion">
+<createdBy>Ruth</createdBy>
+<createdTime>2025-07-14 20:52:42 UTC</createdTime>
+<ownerDesignName>3raTarea</ownerDesignName>
+<engineerTo>
+<item key="F95F75A1-3C66-6FD0-E6A1-87B3A9DF20B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_trasaccion" id="B5C1988B-BD7D-C77B-61C0-8218E0E9FCB8">
+<createdBy>Ruth</createdBy>
+<createdTime>2025-07-14 20:52:55 UTC</createdTime>
+<ownerDesignName>3raTarea</ownerDesignName>
+<engineerTo>
+<item key="F95F75A1-3C66-6FD0-E6A1-87B3A9DF20B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="5E0865B6-B8F3-AA97-93EB-577C41B5B361">
+<createdBy>Ruth</createdBy>
+<createdTime>2025-07-14 20:53:18 UTC</createdTime>
+<ownerDesignName>3raTarea</ownerDesignName>
+<engineerTo>
+<item key="F95F75A1-3C66-6FD0-E6A1-87B3A9DF20B4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="3C718A6C-42F2-F3E8-5A8A-75CA979FF657">
+<createdBy>Ruth</createdBy>
+<createdTime>2025-07-14 20:54:02 UTC</createdTime>
+<ownerDesignName>3raTarea</ownerDesignName>
+<engineerTo>
+<item key="F95F75A1-3C66-6FD0-E6A1-87B3A9DF20B4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_cliente" id="BFACBE5B-FEA2-2DDA-A223-D79B3A4CCFBF">
+<createdBy>Ruth</createdBy>
+<createdTime>2025-07-14 20:54:15 UTC</createdTime>
+<ownerDesignName>3raTarea</ownerDesignName>
+<engineerTo>
+<item key="F95F75A1-3C66-6FD0-E6A1-87B3A9DF20B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_producto" id="D8D70CDE-C9BE-C3CF-0888-24465CD49BF2">
+<createdBy>Ruth</createdBy>
+<createdTime>2025-07-14 20:54:41 UTC</createdTime>
+<ownerDesignName>3raTarea</ownerDesignName>
+<engineerTo>
+<item key="F95F75A1-3C66-6FD0-E6A1-87B3A9DF20B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_cliente1" id="DE2702AA-96CA-E490-4250-79AC4F4B373C">
+<createdBy>Ruth</createdBy>
+<createdTime>2025-07-14 20:55:25 UTC</createdTime>
+<generatorID>875428BC-2EF8-0874-A433-B4D2591282A9</generatorID>
+<ownerDesignName>3raTarea</ownerDesignName>
+<engineerTo>
+<item key="F95F75A1-3C66-6FD0-E6A1-87B3A9DF20B4" value="true"/>
+</engineerTo>
+<referedAttribute>350781BD-CD00-C040-7E78-91430D23117C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_productos" id="2086FB52-CB92-9DAC-3689-8F70F7C33509">
+<createdBy>Ruth</createdBy>
+<createdTime>2025-07-14 20:55:25 UTC</createdTime>
+<generatorID>875428BC-2EF8-0874-A433-B4D2591282A9</generatorID>
+<ownerDesignName>3raTarea</ownerDesignName>
+<engineerTo>
+<item key="F95F75A1-3C66-6FD0-E6A1-87B3A9DF20B4" value="true"/>
+</engineerTo>
+<referedAttribute>423030C6-14B1-962A-427F-37641C6019D9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_categoria" id="74C2DB8E-5F6E-2EC0-7620-74B84D288BCB">
+<createdBy>Ruth</createdBy>
+<createdTime>2025-07-14 20:55:25 UTC</createdTime>
+<generatorID>875428BC-2EF8-0874-A433-B4D2591282A9</generatorID>
+<ownerDesignName>3raTarea</ownerDesignName>
+<engineerTo>
+<item key="F95F75A1-3C66-6FD0-E6A1-87B3A9DF20B4" value="true"/>
+</engineerTo>
+<referedAttribute>A9BCE128-FFE4-1DAD-6144-E99DA78CA7E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_proveedor" id="80B3911C-5137-207E-4AC5-3A756DF75B93">
+<createdBy>Ruth</createdBy>
+<createdTime>2025-07-14 20:55:25 UTC</createdTime>
+<generatorID>875428BC-2EF8-0874-A433-B4D2591282A9</generatorID>
+<ownerDesignName>3raTarea</ownerDesignName>
+<engineerTo>
+<item key="F95F75A1-3C66-6FD0-E6A1-87B3A9DF20B4" value="true"/>
+</engineerTo>
+<referedAttribute>F6DEC33B-E548-6AFE-E8D6-337A53C478DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_productos1" id="178D224B-5B03-5483-673F-3F25F0BBF624">
+<createdBy>Ruth</createdBy>
+<createdTime>2025-07-14 20:59:45 UTC</createdTime>
+<generatorID>4AE0DBFD-90CA-BBC6-7496-F5488D0C2BF1</generatorID>
+<ownerDesignName>3raTarea</ownerDesignName>
+<engineerTo>
+<item key="F95F75A1-3C66-6FD0-E6A1-87B3A9DF20B4" value="true"/>
+</engineerTo>
+<referedAttribute>FA2EAD45-6E40-3BB2-22AF-AF9D175A74FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_categoria1" id="CF3D20E4-1785-0F66-D546-078E77425782">
+<createdBy>Ruth</createdBy>
+<createdTime>2025-07-14 20:59:45 UTC</createdTime>
+<generatorID>4AE0DBFD-90CA-BBC6-7496-F5488D0C2BF1</generatorID>
+<ownerDesignName>3raTarea</ownerDesignName>
+<engineerTo>
+<item key="F95F75A1-3C66-6FD0-E6A1-87B3A9DF20B4" value="true"/>
+</engineerTo>
+<referedAttribute>35AB61B6-5ACB-75B0-805D-FE01044B0742</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_proveedor1" id="E1C31F3C-46DE-C861-6DF2-F56D32DFCDB3">
+<createdBy>Ruth</createdBy>
+<createdTime>2025-07-14 20:59:45 UTC</createdTime>
+<generatorID>4AE0DBFD-90CA-BBC6-7496-F5488D0C2BF1</generatorID>
+<ownerDesignName>3raTarea</ownerDesignName>
+<engineerTo>
+<item key="F95F75A1-3C66-6FD0-E6A1-87B3A9DF20B4" value="true"/>
+</engineerTo>
+<referedAttribute>020DA5C9-B8E4-3466-E555-FAFBD24E4C21</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5EC6B8E9-F4E6-79C7-18F3-A967BEEB3FC2" name="Transaccion PK">
+<createdBy>Ruth</createdBy>
+<createdTime>2025-07-14 20:53:13 UTC</createdTime>
+<ownerDesignName>3raTarea</ownerDesignName>
+<engineerTo>
+<item key="F95F75A1-3C66-6FD0-E6A1-87B3A9DF20B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B5C1988B-BD7D-C77B-61C0-8218E0E9FCB8</attributeRef>
+<attributeRef>BFACBE5B-FEA2-2DDA-A223-D79B3A4CCFBF</attributeRef>
+<attributeRef>D8D70CDE-C9BE-C3CF-0888-24465CD49BF2</attributeRef>
+<attributeRef>DE2702AA-96CA-E490-4250-79AC4F4B373C</attributeRef>
+<attributeRef>2086FB52-CB92-9DAC-3689-8F70F7C33509</attributeRef>
+<attributeRef>74C2DB8E-5F6E-2EC0-7620-74B84D288BCB</attributeRef>
+<attributeRef>80B3911C-5137-207E-4AC5-3A756DF75B93</attributeRef>
+<attributeRef>178D224B-5B03-5483-673F-3F25F0BBF624</attributeRef>
+<attributeRef>CF3D20E4-1785-0F66-D546-078E77425782</attributeRef>
+<attributeRef>E1C31F3C-46DE-C861-6DF2-F56D32DFCDB3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
