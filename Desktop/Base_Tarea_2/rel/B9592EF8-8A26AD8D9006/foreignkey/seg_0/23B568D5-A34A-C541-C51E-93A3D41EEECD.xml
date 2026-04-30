@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="23B568D5-A34A-C541-C51E-93A3D41EEECD" containerWithKeyObject="493C0867-C90A-8394-EC94-4167968E39E4" localFKIndex="0D356D48-77D8-467B-3B8D-B2123EA51F5A" name="TABLE_10_Diagnostico_FKv1">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 04:32:01 UTC</createdTime>
+<ownerDesignName>Base_Tarea_2</ownerDesignName>
+<referredTableLongName>Diagnostico</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>24A4D81D-17A2-F2C9-F75C-C3B9604E3B1C</referredTableID>
+<keyObject>B6F3C395-AD91-444D-8328-4EFFED05541A</keyObject>
+<referredKeyID>B6F3C395-AD91-444D-8328-4EFFED05541A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Dignos</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

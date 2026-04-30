@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0754589F-14CB-86EE-A47B-371D72DD1CCD" name="Resultado_Lab">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 02:56:04 UTC</createdTime>
+<ownerDesignName>Base_Tarea_2</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Resultados" id="457CFD48-2F33-6039-1F4B-F49F9B59417E">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 03:06:11 UTC</createdTime>
+<ownerDesignName>Base_Tarea_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1DD87AC-2F5F-261B-5DDC-B74427EDA06A" referredColumn="7584EEFA-9733-D05F-173E-EEA4C5682098"/>
+</associations>
+</Column>
+<Column name="Prueba" id="48402E34-6E4F-4D14-8C2F-05B8A6F7C344">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 03:06:11 UTC</createdTime>
+<ownerDesignName>Base_Tarea_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valor" id="BD409AEC-2FB5-F38F-B3EC-A6F0920307F7">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 03:06:11 UTC</createdTime>
+<ownerDesignName>Base_Tarea_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="6E14776D-56B6-951E-A8F9-60D0B291ABC6">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 03:06:11 UTC</createdTime>
+<ownerDesignName>Base_Tarea_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96E61434-7476-4390-96B0-EA56FA5E989D" name="Resultado_Lab_PK">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 03:06:11 UTC</createdTime>
+<ownerDesignName>Base_Tarea_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="457CFD48-2F33-6039-1F4B-F49F9B59417E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F29AD053-2107-74BF-FACE-957744F20043" name="Resultado_Lab_Paciente_FK">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 03:09:24 UTC</createdTime>
+<ownerDesignName>Base_Tarea_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="457CFD48-2F33-6039-1F4B-F49F9B59417E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
