@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3351C04F-F183-EBAE-1104-D8C2B092B475" name="Consulta_medica">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-05-08 03:47:15 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<engineerTo>
+<item key="B9592EF8-0283-C819-898E-8A26AD8D9006" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Consulta_Medica" id="53738AE3-723A-6772-E65A-6D79BDB791BE">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-05-08 03:47:33 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<engineerTo>
+<item key="B9592EF8-0283-C819-898E-8A26AD8D9006" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_Hora_consulta" id="77449E91-9008-0ECB-7D54-8431BCAEBD4C">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-05-08 03:48:06 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<engineerTo>
+<item key="B9592EF8-0283-C819-898E-8A26AD8D9006" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Motivo_Consulta" id="C20567EF-06E4-F7BC-2C96-40EFFC69D667">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-05-08 03:48:54 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<engineerTo>
+<item key="B9592EF8-0283-C819-898E-8A26AD8D9006" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Clinica" id="751088E2-1DED-7D37-D021-6AEAD6877351">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-05-13 05:33:32 UTC</createdTime>
+<generatorID>A3CFB99A-670B-E14F-E67E-09BA58D9FD74</generatorID>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<engineerTo>
+<item key="B9592EF8-0283-C819-898E-8A26AD8D9006" value="true"/>
+</engineerTo>
+<referedAttribute>70CC3863-6897-C651-1B44-A9872D2B17F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Plan" id="5C249A43-57A7-5A3C-9D3A-A10FCB7284E9">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-05-13 05:44:39 UTC</createdTime>
+<generatorID>A252B4EA-4DDE-C1E5-2B3C-8BD88012CD49</generatorID>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<engineerTo>
+<item key="B9592EF8-0283-C819-898E-8A26AD8D9006" value="true"/>
+</engineerTo>
+<referedAttribute>CAA77F6D-AA25-FD27-A347-76E8C155E5B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CA4A1628-97DC-C8A6-E683-231329D225B2" name="Consulta_medica PK">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-05-08 03:48:10 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<engineerTo>
+<item key="B9592EF8-0283-C819-898E-8A26AD8D9006" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>53738AE3-723A-6772-E65A-6D79BDB791BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

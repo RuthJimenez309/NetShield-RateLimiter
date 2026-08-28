@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9AA1536B-C38C-0D97-1F09-1C447D9012DA" name="Resul_Lab">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-05-08 03:54:00 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<engineerTo>
+<item key="B9592EF8-0283-C819-898E-8A26AD8D9006" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Resultado" id="4350D950-C43F-E93A-E91E-62D33004FAA3">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-05-08 03:54:10 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<engineerTo>
+<item key="B9592EF8-0283-C819-898E-8A26AD8D9006" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prueba" id="22C4471C-913A-81A1-552B-4EAE509A5129">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-05-08 03:54:34 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<engineerTo>
+<item key="B9592EF8-0283-C819-898E-8A26AD8D9006" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Valor" id="B2DCEB70-F9DE-E1C6-3330-A6E87DB3A9F5">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-05-08 03:54:57 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<engineerTo>
+<item key="B9592EF8-0283-C819-898E-8A26AD8D9006" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="D499B873-33EA-1C0E-2665-1A89B0E77AD3">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-05-08 03:55:22 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<engineerTo>
+<item key="B9592EF8-0283-C819-898E-8A26AD8D9006" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Consulta_Medica" id="93785D4A-D83B-3ED8-2777-C7920918A5FB">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-05-13 05:40:04 UTC</createdTime>
+<generatorID>1A199D3A-EF6A-C584-E86B-5AD7AF29C666</generatorID>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<engineerTo>
+<item key="B9592EF8-0283-C819-898E-8A26AD8D9006" value="true"/>
+</engineerTo>
+<referedAttribute>53738AE3-723A-6772-E65A-6D79BDB791BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7F38DC9-BD3C-DC53-01DC-A67A67CF2AF2" name="Resul_Lab PK">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-05-08 03:54:33 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<engineerTo>
+<item key="B9592EF8-0283-C819-898E-8A26AD8D9006" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4350D950-C43F-E93A-E91E-62D33004FAA3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

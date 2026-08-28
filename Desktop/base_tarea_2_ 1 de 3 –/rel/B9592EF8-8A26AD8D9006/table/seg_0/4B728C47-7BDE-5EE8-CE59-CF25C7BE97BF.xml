@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B728C47-7BDE-5EE8-CE59-CF25C7BE97BF" name="Consulta_Medica">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 03:21:57 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Medica" id="52A9AE4B-7D58-E6A6-4D68-93891A065163">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 03:27:07 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D76F89A-D208-2555-7AC8-8D87BD9B123A" referredColumn="7584EEFA-9733-D05F-173E-EEA4C5682098"/>
+<colAssociation fkAssociation="57D902C1-C55A-2C91-66FA-29536D5E6B09" referredColumn="C5E0193B-49FB-DA6B-191D-49474B2B94AB"/>
+<colAssociation fkAssociation="A282D35A-4A7F-A870-B16F-A956B4BBC69A" referredColumn="8796A3D6-E627-9639-4754-8A5038F7018C"/>
+</associations>
+</Column>
+<Column name="Fecha_hora_colsuta" id="498B27BE-530D-B89C-EB7E-A5431C0AF0B7">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 03:27:07 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Motivo_Consulta" id="EF5C6527-A932-1A82-4628-406A290CD2AD">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 03:27:07 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Notas_Clinicas" id="8922D22F-33D4-F0BA-9440-24ED21A90BC3">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 03:27:07 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C49BC1AA-75D6-D676-0F15-A8CD2B7AC2CC" name="Consulta_Medica_PK">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 03:27:07 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52A9AE4B-7D58-E6A6-4D68-93891A065163"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DE91959-058D-1764-DCC5-652C563FEAFD" name="TABLE_11_Paciente_FK">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 03:27:07 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52A9AE4B-7D58-E6A6-4D68-93891A065163"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="490ABB5A-CF25-C6A4-167E-7758ECEF9549" name="TABLE_11_Doctor_FK">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 03:27:07 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52A9AE4B-7D58-E6A6-4D68-93891A065163"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FDC9F67-28A7-5BD9-9F70-B0119B3665A5" name="TABLE_11_Clinica_FK">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 03:27:07 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52A9AE4B-7D58-E6A6-4D68-93891A065163"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B3E4A09-09EB-2A6F-262C-74B3A3A504DA" name="Doctor_Especialista">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 04:24:07 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MedicoEs" id="8ED19901-CF0B-1CF0-B76C-EB5A24B31F41">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 04:26:22 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D8843F7-2719-CC53-7925-E43C32049A82" referredColumn="C5E0193B-49FB-DA6B-191D-49474B2B94AB"/>
+</associations>
+</Column>
+<Column name="Especialidad" id="386901B1-1B48-2970-0516-95002191EDC6">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 04:26:22 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3816D841-3848-7EAE-980E-064E5181598A" name="Doctor_Especialista_PK">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 04:26:22 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ED19901-CF0B-1CF0-B76C-EB5A24B31F41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="816E089B-00A1-4076-B5BD-C8B9CB910FC1" name="TABLE_12_Doctor_FK">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-04-30 04:26:22 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ED19901-CF0B-1CF0-B76C-EB5A24B31F41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

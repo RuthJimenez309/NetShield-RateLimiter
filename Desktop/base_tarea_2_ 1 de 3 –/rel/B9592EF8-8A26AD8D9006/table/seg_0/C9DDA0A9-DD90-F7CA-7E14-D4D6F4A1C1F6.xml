@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9DDA0A9-DD90-F7CA-7E14-D4D6F4A1C1F6" name="Tratamiento">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-05-08 02:59:52 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_plan" id="858AAD6D-3776-4C62-8E2B-32E1DDD7275C">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-05-08 03:04:47 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tratamiento_Recomenda" id="45C35C0F-B1A2-775D-F359-CF645E370542">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-05-08 03:04:47 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Inicio" id="2C4C72CB-0DBC-5709-730E-AA11F73880C9">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-05-08 03:04:47 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F006C08-EE05-4274-8577-0C96724EAD84" name="Tratamiento_PK">
+<createdBy>Ruth</createdBy>
+<createdTime>2026-05-08 03:04:47 UTC</createdTime>
+<ownerDesignName>base_tarea_2_ 1 de 3 –</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="858AAD6D-3776-4C62-8E2B-32E1DDD7275C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
